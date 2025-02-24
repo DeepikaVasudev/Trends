@@ -1,0 +1,261 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.blacksec{
+    background-color: black;
+    color: white;
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    
+}
+
+.blacksec p{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Montserrat", serif;
+    align-items: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.navdiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    text-align: center;
+    
+    margin-left: 450px;
+    margin-right: 450px;
+}
+
+.navdiv div a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+
+}
+
+.seccarou{
+    margin-top: 180px;
+}
+
+.divbreak{
+    width: 100%;
+    height: 50px;
+    background-color: rgb(243, 241, 238);
+    margin-top: 20px;
+    border-top: 1px solid rgb(199, 199, 199);
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+    
+    
+
+
+.videosec{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    margin-top: 500px;
+    padding-top: 30px;
+    
+}
+
+.find{
+    position: absolute;
+    top: 200px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Montserrat", serif;
+}
+
+.searchdiv{
+    position: absolute;
+    top: 250px;
+    /* left: 500px; */
+    height: 150px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid gray;
+
+    border-radius: 5px;
+    
+}
+
+.advanced{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.advanced a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.ip{
+    display: grid;
+    grid-template-columns: 9fr 1fr 2fr;
+}
+
+.btnsch{
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.mapdiv{
+    width: 300px;
+    margin-top: 50px;
+   display: grid;
+   grid-template-columns: auto auto;
+   column-gap: 10px;
+    margin-left: 1200px;
+}
+
+.cardsec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 60px;
+}
+
+.expsec{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.expsec p{
+    font-size: 30px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+}
+
+.btncoll{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 50px;
+}
+
+.btncoll2{
+    background-color: white;
+    color: black;
+    height: 40px;
+    width: 120px;
+    border: 1px solid rgb(166, 164, 164);
+    border-radius: 50px;
+}
+
+.imgsec{
+    display: flex;
+   
+    justify-content: space-evenly;
+    margin-top: 50px;
+    gap: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.secbrand{
+    height: 300px;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.secbrand p{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Montserrat", serif;
+    font-weight: bold;
+}
+
+.secbrand img{
+    /* margin-left: 10px;
+    margin-right: 10px; */
+    border-radius: 10px;
+}
+
+
+footer{
+    height: 300px;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+}
+
+footer img{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.aboutdiv{
+    margin-left: 100px;
+    margin-top: -50px;
+}
+
+.aboutdiv a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    
+}
+
+.faqdiv{
+    margin-left: 400px;
+    margin-top: -100px;
+    
+}
+
+.faqdiv a{
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+
+}
+
+.finddiv{
+    margin-top: -150px;
+    margin-left: 1100px;
+}
+
+.finddiv p{
+    color: white;
+}
+
+.finddiv div{
+    margin-left: -150px;
+}
+
+.icondiv{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 50%;
+    background-color: grey;
+    color: white;
+    /* justify-content: center; */
+    align-content: center; 
+    align-items: center;
+    text-align: center;
+}
+
+.icondiv:hover{
+    cursor: pointer;
+
+}
